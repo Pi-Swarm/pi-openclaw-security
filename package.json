@@ -1,0 +1,26 @@
+{
+  "name": "pi-openclaw-security",
+  "version": "2026.2.26-security",
+  "description": "🛡️ Enhanced OpenClaw with Security Tools - Sovereign AI Security Edition",
+  "author": "Pi-Swarm",
+  "license": "MIT",
+  "bin": {
+    "pi": "bin/pi.mjs",
+    "pi-openclaw": "bin/pi.mjs"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "docs/",
+    "skills/",
+    "extensions/"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "openclaw": "^2026.2.15"
+  }
+}
